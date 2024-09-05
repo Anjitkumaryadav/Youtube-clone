@@ -1,0 +1,19 @@
+<IoMdHome />
+        <SiYoutubeshorts />
+        <MdOutlineSubscriptions />
+        <FaChevronRight />
+        <FaYoutube />
+        <SiYoutubestudio />
+        <SiYoutubekids />
+        <SiYoutubemusic />
+        <SiTrendmicro />
+        <HiOutlineShoppingBag />
+        <PiMusicNoteLight />
+        <PiFilmSlateLight />
+        <CgMediaLive />
+        <SiYoutubegaming />
+        <FaRegNewspaper />
+        <TfiCup />
+        <PiLightbulbLight />
+        <SiStylelint />
+        <MdPodcasts />
