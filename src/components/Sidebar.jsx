@@ -162,7 +162,7 @@ function Sidebar() {
 
   return (
     <div className="px-6 w-[15%] h-[calc(100vh-6.625rem)] overflow-scroll overflow-x-hidden">
-      <div className="space-y-3 items-center ">
+      <div className="space-y-2 items-center ">
         {/*main sidebar*/}
         {sidebarItem.map((item) => {
           return (
