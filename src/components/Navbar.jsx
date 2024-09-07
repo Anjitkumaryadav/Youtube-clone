@@ -18,8 +18,8 @@ function Navbar() {
             <img src={logo} alt="" className='w-28'/>
         </div>
         <div className='flex w-[35%] items-center '>
-            <div className='w-[100%] px-3 py-2 border rounded-l-full'><input type="text" placeholder='Search' className='outline-none'/></div>
-            <button className='px-4 py-2 border rounded-r-full'><CiSearch size={'24px'}/></button>
+            <div className='w-[100%] px-4 py-2 border border-gray-400 rounded-l-full'><input type="text" placeholder='Search' className='outline-none'/></div>
+            <button className='px-4 py-2 border border-gray-400 rounded-r-full'><CiSearch size={'24px'}/></button>
             <FaMicrophone size={'38px'} className='ml-3 border rounded-full p-2 cursor-pointer hover:bg-gray-200 duration-200'/>
 
         </div>

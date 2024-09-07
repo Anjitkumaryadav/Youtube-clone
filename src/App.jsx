@@ -5,10 +5,14 @@ import Home from "./components/Home";
 import Search from "./components/Search";
 import PlayingVideo from "./components/PlayingVideo";
 import { Route, Routes } from "react-router-dom";
+import { useAuth } from "./context/AuthProvider";
+import Loading from "./components/Loading";
 
 function App() {
+  const{loading}=useAuth()
   return (
     <div>
+      {loading && <Loading/>}
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
